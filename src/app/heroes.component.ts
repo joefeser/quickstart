@@ -5,9 +5,10 @@ import {HeroService} from './hero.service';
 import {Router} from '@angular/router';
 
 @Component({
+  moduleId: module.id,
   selector: 'my-heroes',
-  templateUrl: './heroes.component.html',
-  styleUrls: ['./heroes.component.css'],
+  styleUrls: ['heroes.component.css'],
+  templateUrl: 'heroes.component.html',
   providers: [
     HeroService
   ]
