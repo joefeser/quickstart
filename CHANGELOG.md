@@ -23,7 +23,7 @@ Upgraders: for a fresh start, consider running these commands
 # 0.2.18 (2016-11-30)
 * remove `exclude` clause from `tsconfig.json`; it was just confusing people
 * karma.config + karma-test-shim can handle multiple spec source paths (issue #294)
-* cosmetic `app.component.spec.ts` changes
+* cosmetic `heroes.component.spec.ts` changes
 * cosmetic `karma.config.js` changes
 
 <a name="0.2.17"></a>
@@ -141,7 +141,7 @@ Upgraders: for a fresh start, consider running these commands
 
  * testing
    - updated wallaby.js and karma.conf.js
-   - updated app.component.spec.ts
+   - updated heroes.component.spec.ts
 
 
  <a name="0.1.15"></a>
